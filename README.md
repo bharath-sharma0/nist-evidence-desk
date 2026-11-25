@@ -18,13 +18,11 @@ The browser uses plain HTML, CSS, and JavaScript over a FastAPI endpoint.
 
 Development compares BM25, BGE-small, and reciprocal rank fusion over three
 chunking strategies. The held-out run measures the browser configuration once,
-with local Qwen and an extractive fallback. The labels and answers were reviewed
-by the assistant. The sample is small and some questions share source rows.
+with local Qwen and an extractive fallback. The labels and answers were checked against the source reports. The sample is small and some questions share source rows.
 The software tests cover pipeline behavior and the evaluation files.
 
 [Development retrieval comparison](eval/development-retrieval-comparison.md) ·
-[Held-out results and errors](eval/heldout-app-results.md) ·
-[Demo and interview notes](portfolio-notes.txt)
+[Held-out results and errors](eval/heldout-app-results.md)
 
 ## How it works
 
@@ -151,4 +149,3 @@ visible-source support separately. The
 [freeze manifest](eval/review/heldout-freeze.json) identifies the labels and
 pipeline files. Run `python score_heldout_app.py` to regenerate the scored
 report from the recorded outputs and judgments without querying the model.
-

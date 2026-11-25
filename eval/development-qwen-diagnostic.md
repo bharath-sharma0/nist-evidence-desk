@@ -101,7 +101,7 @@ Qwen: Abstained.
 
 ## nist-011 · Abstained
 
-What is the waiver form number for a VIT student team implementing suggested action GV-1.1-001?
+What is the waiver form number for a student team implementing suggested action GV-1.1-001?
 
 Draft answer: Abstain
 

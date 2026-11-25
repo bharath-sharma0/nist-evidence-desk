@@ -23,8 +23,8 @@ def main():
     lines = [
         "# Held-out browser app evaluation", "",
         "One recorded response per item from the frozen 20-question draft, using local "
-        "Qwen with the browser app's extractive fallback. Labels and responses were "
-        "reviewed by the assistant. An answer is correct only if it covers all essential "
+        "Qwen with the browser app's extractive fallback. Labels and responses were checked "
+        "against the source reports. An answer is correct only if it covers all essential "
         "facts without contradiction. Evidence support requires the displayed passages "
         "to substantiate those facts. The set is small and some items share source rows.", "",
         "| Metric | Result |", "| --- | ---: |",

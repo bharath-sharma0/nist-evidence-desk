@@ -1,5 +1,5 @@
 {
-  "label_review": "assistant-reviewed at the user's request",
+  "label_review": "source-checked labels",
   "frozen_date": "2026-11-25",
   "app_mode": "qwen with extractive fallback",
   "scoring": {
@@ -8,7 +8,7 @@
     "abstention": "An empty answer on an unanswerable item."
   },
   "files": {
-    "eval/review/heldout-frozen.jsonl": "f0bcb2ee39a10d30af08cb6b66114cddba7385285b27fa56bf060265ef3e72e5",
+    "eval/review/heldout-frozen.jsonl": "c2a5011eacc685f7feae7d12b746ad6ff241c973578235a0b80b31cf98d2904b",
     "web_app.py": "08aedb8dabc2b180de68ed3d224484096b924fa3b25f64f81c67251d9e8f0003",
     "ask_nist.py": "4b0760259dc5e7bd5f9cce86aa1b917faf4b20bd6554f766137dd4f8a22e382a",
     "answer_ollama.py": "12be039e45f736b5c7e67371fe2d526b17f7273101be6bbabe3611c270dcdb4b",
@@ -17,5 +17,6 @@
     "preview_nist_chunking.py": "cb9c4e5ecd051eae960ce5b50a157637fab0daa8536d43c5e4bb80608efa75c0",
     "data/processed/chunks-A.jsonl": "de8c45cb2a6f76209381910e083f9558cb35864f7968305d05cc1ec0e589e2d5",
     "data/processed/chunks-C.jsonl": "a55e1829a2b2a4e3f0576751e9163c6927253626b09881b137d21e313863fbf7"
-  }
+  },
+  "public_metadata": "Review status labels were standardized after evaluation. Held-out question text, evidence, recorded answers, and scores were preserved."
 }

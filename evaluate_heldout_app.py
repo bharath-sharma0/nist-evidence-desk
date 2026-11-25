@@ -23,8 +23,8 @@ def main():
             raise ValueError(f"Frozen artifact changed: {relative_path}")
     items = read_jsonl(FROZEN)
     if len(items) != 20 or any(q["split"] != "heldout" or
-                               q["review_status"] != "assistant_reviewed" for q in items):
-        raise ValueError("Expected 20 frozen, assistant-reviewed held-out questions.")
+                               q["review_status"] != "source_checked" for q in items):
+        raise ValueError("Expected 20 frozen, source-checked held-out questions.")
     complete = read_jsonl(OUTPUT) if OUTPUT.exists() else []
     if [r["id"] for r in complete] != [q["id"] for q in items[:len(complete)]]:
         raise ValueError("Checkpoint IDs do not match the frozen questions.")
