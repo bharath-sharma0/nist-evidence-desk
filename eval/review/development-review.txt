@@ -1,0 +1,300 @@
+NIST development evaluation review
+
+Start with the first four questions. For each, reply with the item ID and
+OK or the correction. Check that the answer follows from the cited text.
+For an abstention item, check whether either report supplies the requested fact.
+The source links use physical PDF page numbers.
+
+nist-001 | factual_lookup
+Question: For action GV-1.1-001, which legal areas does NIST specifically mention?
+Expected: Data privacy, copyright, and intellectual property law.
+Evidence (AI 600-1, PDF 17, printed 13): those related to data privacy, copyright and intellectual property law.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=17
+Your verdict: ____________________
+
+nist-004 | paraphrased
+Question: A chatbot confidently makes up an answer. What term does the Generative AI Profile use for that behavior?
+Expected: Confabulation.
+Evidence (AI 600-1, PDF 10, printed 6): “Confabulation” refers to a phenomenon in which GAI systems generate and confidently present erroneous or false content in response to prompts.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=10
+Your verdict: ____________________
+
+nist-007 | multi_passage
+Question: For action GV-1.3-003, what should be prepared, and which actor tasks are listed at the end of the continued table?
+Expected: Prepare a test plan and response policy. The listed actor tasks are Governance and Oversight.
+Evidence (AI 600-1, PDF 18, printed 14): Establish a test plan and response policy
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=18
+Evidence (AI 600-1, PDF 19, printed 15): AI Actor Tasks: Governance and Oversight
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=19
+Your verdict: ____________________
+
+nist-012 | unanswerable
+Question: What single numerical pass threshold do these two NIST reports require all GenAI systems to meet before deployment?
+Expected: Abstain. The corpus does not answer this.
+Review note: Look for a universal numeric requirement, rather than an example metric or advice to set a threshold.
+Your verdict: ____________________
+
+
+REMAINING DEVELOPMENT QUESTIONS
+
+nist-002 | factual_lookup
+Question: Which four primary considerations are named at the start of Appendix A of the Generative AI Profile?
+Expected: Governance, pre-deployment testing, content provenance, and incident disclosure.
+Evidence (AI 600-1, PDF 51, printed 47): Governance, Pre-Deployment Testing, Content Provenance, and Incident Disclosure
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=51
+Your verdict: ____________________
+
+nist-003 | factual_lookup
+Question: When does the AI RMF say AI systems should be tested?
+Expected: Before deployment and regularly while in operation.
+Evidence (AI 100-1, PDF 33, printed 28): AI systems should be tested before their deployment and regu- larly while in operation.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=33
+Your verdict: ____________________
+
+nist-005 | paraphrased
+Question: Which parts of the AI RMF establish the context for an AI system’s risks and then allocate resources to the risks that have been identified and measured?
+Expected: MAP establishes the context. MANAGE allocates resources to mapped and measured risks.
+Evidence (AI 100-1, PDF 29, printed 24): The MAP function establishes the context to frame risks related to an AI system.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=29
+Evidence (AI 100-1, PDF 36, printed 31): The MANAGE function entails allocating risk resources to mapped and measured risks
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=36
+Your verdict: ____________________
+
+nist-006 | multi_passage
+Question: What does action GV-1.3-004 ask teams to do to learn what uses people consider unacceptable?
+Expected: Obtain input from stakeholder communities to identify unacceptable use, in accordance with the AI RMF Map function.
+Evidence (AI 600-1, PDF 19, printed 15): Obtain input from stakeholder communities to identify unacceptable use, in accordance with activities in the AI RMF Map function.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=19
+Your verdict: ____________________
+
+nist-008 | factual_lookup
+Question: Which governance list includes data provenance, and which item on the following page explicitly connects risk mapping and measurement?
+Expected: The organizational governance list includes data provenance. Its continuation lists risk mapping and measurement.
+Evidence (AI 600-1, PDF 51, printed 47): A.1.2. Organizational Governance
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=51
+Evidence (AI 600-1, PDF 51, printed 47): • Data provenance
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=51
+Evidence (AI 600-1, PDF 52, printed 48): • Risk mapping and measurement
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=52
+Review note: This item draws evidence from two pages. Consider relabeling it multi_passage during manual review.
+Your verdict: ____________________
+
+nist-009 | multi_passage
+Question: Which section discusses data provenance as an organizational governance consideration, and what related measurement item appears in the continued list?
+Expected: Appendix A.1.2 (Organizational Governance) lists data provenance. The next page lists risk mapping and measurement.
+Evidence (AI 100-1, PDF 29, printed 24): The MAP function establishes the context to frame risks related to an AI system.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=29
+Evidence (AI 100-1, PDF 33, printed 28): It uses knowledge relevant to AI risks identified in the MAP function and informs the MANAGE function.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=33
+Your verdict: ____________________
+
+nist-010 | unanswerable
+Question: What is the project’s measured Confabulation Recall@5 on its held-out RAG test set?
+Expected: Abstain. The corpus does not answer this.
+Review note: These reports contain NIST guidance, not the project’s benchmark results.
+Your verdict: ____________________
+
+nist-011 | unanswerable
+Question: What is the waiver form number for a VIT student team implementing suggested action GV-1.1-001?
+Expected: Abstain. The corpus does not answer this.
+Review note: The reports do not specify a VIT waiver process.
+Your verdict: ____________________
+
+nist-014 | paraphrased
+Question: How can teams find out what harm an AI system might cause in a particular setting?
+Expected: Use an AI system impact assessment to understand potential impacts or harms in that setting.
+Evidence (AI 100-1, PDF 11, printed 6): AI system impact assessment approaches can help AI actors understand potential impacts or harms within specific contexts.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=11
+Your verdict: ____________________
+
+nist-017 | factual_lookup
+Question: What organizational mechanisms does the framework say organizations need to establish and maintain for effective risk management?
+Expected: Accountability mechanisms, roles and responsibilities, culture, and incentive structures.
+Evidence (AI 100-1, PDF 14, printed 9): Organizations need to establish and maintain the appropriate accountability mechanisms, roles and responsibilities, culture, and incentive structures for risk management to be effective.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=14
+Your verdict: ____________________
+
+nist-019 | factual_lookup
+Question: Which two properties does the framework say contribute to validity and trustworthiness but can be in tension?
+Expected: Accuracy and robustness.
+Evidence (AI 100-1, PDF 19, printed 14): Accuracy and robustness contribute to the validity and trustworthiness of AI systems, and can be in tension with one another in AI systems.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=19
+Your verdict: ____________________
+
+nist-020 | paraphrased
+Question: At what stage should a team first think about how to prevent its AI system from becoming dangerous?
+Expected: As early as planning and design, with safety considerations throughout the lifecycle.
+Evidence (AI 100-1, PDF 20, printed 15): Employing safety considerations during the lifecycle and starting as early as possible with planning and design can prevent
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=20
+Your verdict: ____________________
+
+nist-021 | factual_lookup
+Question: Which characteristics does the AI RMF explicitly say transparency does not necessarily guarantee?
+Expected: Accuracy, enhanced privacy, security, or fairness.
+Evidence (AI 100-1, PDF 21, printed 16): A transparent system is not necessarily an accurate, privacy-enhanced, secure, or fair system.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=21
+Your verdict: ____________________
+
+nist-022 | paraphrased
+Question: How could a team help someone understand why a system made a particular recommendation?
+Expected: Communicate a description of why the AI system made that prediction or recommendation.
+Evidence (AI 100-1, PDF 22, printed 17): communicating a description of why an AI system made a particular prediction or recommendation.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=22
+Your verdict: ____________________
+
+nist-024 | paraphrased
+Question: What type of improvement does NIST say future evaluations of the framework should find ways to measure?
+Expected: Bottom-line improvements in the trustworthiness of AI systems.
+Evidence (AI 100-1, PDF 24, printed 19): measure bottom-line improvements in the trustworthiness of AI systems
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=24
+Your verdict: ____________________
+
+nist-027 | factual_lookup
+Question: Which GAI risk labels are assigned to GV-3.2-001?
+Expected: CBRN Information or Capabilities; Harmful Bias and Homogenization
+Evidence (AI 600-1, PDF 22, printed 18): CBRN Information or Capabilities; Harmful Bias and Homogenization
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=22
+Your verdict: ____________________
+
+nist-028 | factual_lookup
+Question: Which GAI risk labels are assigned to GV-4.2-001?
+Expected: Intellectual Property; Dangerous, Violent, or Hateful Content; Obscene, Degrading, and/or Abusive Content
+Evidence (AI 600-1, PDF 23, printed 19): Intellectual Property; Dangerous, Violent, or Hateful Content; Obscene, Degrading, and/or Abusive Content
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=23
+Your verdict: ____________________
+
+nist-029 | factual_lookup
+Question: Which GAI risk labels are assigned to GV-5.1-001?
+Expected: Human-AI Configuration; Harmful Bias and Homogenization
+Evidence (AI 600-1, PDF 24, printed 20): Human-AI Configuration; Harmful Bias and Homogenization
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=24
+Your verdict: ____________________
+
+nist-030 | factual_lookup
+Question: Which GAI risk labels are assigned to GV-6.1-006?
+Expected: Information Integrity
+Evidence (AI 600-1, PDF 25, printed 21): Information Integrity
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25
+Your verdict: ____________________
+
+nist-032 | factual_lookup
+Question: Which GAI risk labels are assigned to MS-3.2-001?
+Expected: Human-AI Configuration; Confabulation
+Evidence (AI 600-1, PDF 42, printed 38): Human-AI Configuration; Confabulation
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=42
+Your verdict: ____________________
+
+nist-033 | factual_lookup
+Question: Which GAI risk labels are assigned to MG-1.3-002?
+Expected: Human-AI Configuration
+Evidence (AI 600-1, PDF 44, printed 40): Human-AI Configuration
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=44
+Your verdict: ____________________
+
+nist-037 | paraphrased
+Question: How should an organization check that people can communicate problems caused by its GenAI systems?
+Expected: Verify information-sharing and feedback mechanisms for negative impacts among individuals and organizations.
+Evidence (AI 600-1, PDF 24, printed 20): Verify information sharing and feedback mechanisms among individuals and organizations regarding any negative impact from GAI systems.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=24
+Your verdict: ____________________
+
+nist-038 | paraphrased
+Question: What contract provision would let an organization scrutinize a GenAI vendor’s practices?
+Expected: Include clauses that allow evaluation of the third party’s GenAI processes and standards.
+Evidence (AI 600-1, PDF 25, printed 21): Include clauses in contracts which allow an organization to evaluate third-party GAI processes and standards.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25
+Your verdict: ____________________
+
+nist-039 | paraphrased
+Question: What kind of evidence is too weak to generalize from when judging a model’s capabilities?
+Expected: Narrow, non-systematic, anecdotal assessments.
+Evidence (AI 600-1, PDF 35, printed 31): Avoid extrapolating GAI system performance or capabilities from narrow, non- systematic, and anecdotal assessments.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=35
+Your verdict: ____________________
+
+nist-040 | paraphrased
+Question: What should a team check about its training-data mix to address model collapse?
+Expected: Check the ratio of synthetic to non-synthetic data and verify that training data is not overly homogeneous or generated by GenAI.
+Evidence (AI 600-1, PDF 41, printed 37): Assess the proportion of synthetic to non-synthetic training data and verify training data is not overly homogenous or GAI-produced to mitigate concerns of model collapse.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=41
+Your verdict: ____________________
+
+nist-041 | paraphrased
+Question: How can a team bring in outside perspectives when looking for newly emerging GenAI risks?
+Expected: Establish an emerging-risk identification process that includes consulting external AI actors.
+Evidence (AI 600-1, PDF 42, printed 38): Establish processes for identifying emergent GAI system risks including consulting with external AI Actors.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=42
+Your verdict: ____________________
+
+nist-043 | paraphrased
+Question: What documentation should a team examine when onboarding someone else’s model?
+Expected: Third-party transparency artifacts such as system cards and model cards.
+Evidence (AI 600-1, PDF 47, printed 43): Review various transparency artifacts (e.g., system cards and model cards) for third-party models.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=47
+Your verdict: ____________________
+
+nist-047 | multi_passage
+Question: What should an organization verify about communicating negative impacts, and what should it allocate for outreach and redress?
+Expected: Verify information-sharing and feedback mechanisms. Allocate time and resources to outreach, feedback, and recourse.
+Evidence (AI 600-1, PDF 24, printed 20): Verify information sharing and feedback mechanisms among individuals and organizations regarding any negative impact from GAI systems.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=24
+Evidence (AI 600-1, PDF 24, printed 20): Allocate time and resources for outreach, feedback, and recourse processes in GAI system development.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=24
+Your verdict: ____________________
+
+nist-048 | multi_passage
+Question: What proposed supplier assessment complements contract clauses permitting review of a third party’s GenAI practices?
+Expected: A use-case-based supplier risk assessment that evaluates and monitors third-party performance and adherence to standards, including content provenance.
+Evidence (AI 600-1, PDF 25, printed 21): Implement a use-cased based supplier risk assessment framework to evaluate and monitor third-party entities’ performance and adherence to content provenance standards and technologies to detect anomalies and unauthorized changes; services acquisition and value chain risk management; and legal compliance.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25
+Evidence (AI 600-1, PDF 25, printed 21): Include clauses in contracts which allow an organization to evaluate third-party GAI processes and standards.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25
+Your verdict: ____________________
+
+nist-049 | multi_passage
+Question: How does the AI RMF describe the relationship between accuracy and robustness, and what kind of assessment does the GenAI Profile caution against generalizing from?
+Expected: Both contribute to validity and trustworthiness and can be in tension. Avoid generalizing from narrow, non-systematic, anecdotal assessments.
+Evidence (AI 100-1, PDF 19, printed 14): Accuracy and robustness contribute to the validity and trustworthiness of AI systems, and can be in tension with one another in AI systems.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=19
+Evidence (AI 600-1, PDF 35, printed 31): Avoid extrapolating GAI system performance or capabilities from narrow, non- systematic, and anecdotal assessments.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=35
+Your verdict: ____________________
+
+nist-050 | multi_passage
+Question: Distinguish the role of outside AI actors in emerging-risk identification from community feedback in content-provenance monitoring.
+Expected: Consult outside AI actors to identify emerging risks. Collect and integrate structured content-provenance feedback from operators, users, and impacted communities.
+Evidence (AI 600-1, PDF 42, printed 38): Establish processes for identifying emergent GAI system risks including consulting with external AI Actors.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=42
+Evidence (AI 600-1, PDF 43, printed 39): Record and integrate structured feedback about content provenance from operators, users, and potentially impacted communities through the use of methods such as user research studies, focus groups, or community forums. Actively seek feedback on generated content quality and potential biases. Assess the general awareness among end users and impacted communities about the availability of these feedback channels.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=43
+Your verdict: ____________________
+
+nist-053 | unanswerable
+Question: Which exact ISO certification number does NIST assign to an organization after it adopts the AI RMF?
+Expected: Abstain. The corpus does not answer this.
+Review note: Check that adopting the framework does not create a NIST-assigned ISO certification number.
+Your verdict: ____________________
+
+nist-056 | unanswerable
+Question: How many staff members must every organization assign to the oversight of a GenAI system?
+Expected: Abstain. The corpus does not answer this.
+Review note: Check for a universal staffing count rather than descriptions of AI actor tasks.
+Your verdict: ____________________
+
+nist-058 | unanswerable
+Question: Which vendor does NIST require every organization to hire for independent GenAI evaluations?
+Expected: Abstain. The corpus does not answer this.
+Review note: The Profile discusses independent evaluation and gives no mandatory vendor selection.
+Your verdict: ____________________
+
+nist-059 | unanswerable
+Question: What exact dollar budget do the two reports prescribe for a small company’s redress and feedback process?
+Expected: Abstain. The corpus does not answer this.
+Review note: The recommendation is to allocate time and resources, without prescribing a dollar figure.
+Your verdict: ____________________
+
+nist-060 | unanswerable
+Question: What mandatory percentage of a model’s training data must be synthetic under the Generative AI Profile?
+Expected: Abstain. The corpus does not answer this.
+Review note: The Profile recommends assessing proportions and avoiding over-homogeneity, without prescribing a mandatory percentage.
+Your verdict: ____________________

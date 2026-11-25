@@ -1,0 +1,20 @@
+{"id":"nist-013","correct":false,"citation_support":false,"note":"The answer omitted valid and reliable even though the displayed passage includes it. The alternate source page itself is relevant."}
+{"id":"nist-015","correct":true,"citation_support":true,"note":"The answer correctly says the framework does not prescribe risk tolerance. Both displayed quotes support the answer and its qualification."}
+{"id":"nist-016","correct":false,"citation_support":false,"note":"The app declined. The cited source calls for the most urgent prioritization and the most thorough risk management."}
+{"id":"nist-018","correct":true,"citation_support":false,"note":"The answer captures context, values, transparency, and justification. The shown excerpts support context and risk assessment but omit the values and transparency sentence needed for full support."}
+{"id":"nist-023","correct":false,"citation_support":false,"note":"The answer splits computational and statistical into two categories and omits human-cognitive bias. The displayed quote gives the correct grouping."}
+{"id":"nist-025","correct":true,"citation_support":false,"note":"Correct risk label and correct page. The displayed field contains only the label, without the action ID that connects it to this question."}
+{"id":"nist-026","correct":true,"citation_support":false,"note":"Both risk labels and the page match. The displayed field omits the action ID."}
+{"id":"nist-031","correct":true,"citation_support":false,"note":"Correct risk label and page. The displayed field omits the action ID."}
+{"id":"nist-034","correct":true,"citation_support":false,"note":"Correct risk label and page. The displayed field omits the action ID."}
+{"id":"nist-035","correct":false,"citation_support":false,"note":"The answer paraphrases incident processes but omits the after-action review and the instruction to update procedures as required."}
+{"id":"nist-036","correct":true,"citation_support":true,"note":"The answer identifies the ability to stop and deactivate the system, which is directly supported by the displayed recommendation."}
+{"id":"nist-042","correct":false,"citation_support":false,"note":"The app declined. The source names real-time auditing tools for tracking and validating lineage and authenticity."}
+{"id":"nist-044","correct":false,"citation_support":false,"note":"The answer describes the general framework and omits performance, feedback, and improvements specified for the public report."}
+{"id":"nist-045","correct":false,"citation_support":false,"note":"The answer identifies GV-1.5-001 correctly but omits after-action reviews to identify gaps and turns updates as required into an unconditional requirement."}
+{"id":"nist-046","correct":false,"citation_support":false,"note":"The response names two decommissioning factors but omits the requested capability to deactivate the system when necessary."}
+{"id":"nist-051","correct":false,"citation_support":false,"note":"The answer captures the feedback goal but overstates the second recommendation. The source says demonstrated auditing tools may aid tracking and validation, rather than ensure authenticity."}
+{"id":"nist-052","correct":false,"citation_support":false,"note":"The app declined. The two labeled passages cover monitors' capabilities and what public reports should include."}
+{"id":"nist-054","correct":true,"citation_support":false,"note":"Correct abstention. The action recommends periodic review without specifying a mandated maximum number of days."}
+{"id":"nist-055","correct":true,"citation_support":false,"note":"Correct abstention. The Profile does not prescribe a universal filesystem path."}
+{"id":"nist-057","correct":true,"citation_support":false,"note":"Correct abstention. The requested organization-specific deployment statistic is outside the corpus."}

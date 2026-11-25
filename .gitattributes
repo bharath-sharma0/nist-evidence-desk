@@ -1,0 +1,8 @@
+# Keep the exact bytes recorded by the held-out freeze manifest.
+/eval/review/heldout-frozen.jsonl -text
+/web_app.py -text
+/ask_nist.py -text
+/answer_ollama.py -text
+/answer_extractive.py -text
+/evaluate_bm25.py -text
+/preview_nist_chunking.py -text

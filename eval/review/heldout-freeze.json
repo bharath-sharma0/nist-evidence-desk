@@ -1,0 +1,21 @@
+{
+  "label_review": "assistant-reviewed at the user's request",
+  "frozen_date": "2026-11-25",
+  "app_mode": "qwen with extractive fallback",
+  "scoring": {
+    "answer_correct": "All essential facts are stated correctly, with no contradictory claims.",
+    "citation_support": "Displayed source passages jointly substantiate the full answer with correct provenance.",
+    "abstention": "An empty answer on an unanswerable item."
+  },
+  "files": {
+    "eval/review/heldout-frozen.jsonl": "f0bcb2ee39a10d30af08cb6b66114cddba7385285b27fa56bf060265ef3e72e5",
+    "web_app.py": "08aedb8dabc2b180de68ed3d224484096b924fa3b25f64f81c67251d9e8f0003",
+    "ask_nist.py": "4b0760259dc5e7bd5f9cce86aa1b917faf4b20bd6554f766137dd4f8a22e382a",
+    "answer_ollama.py": "12be039e45f736b5c7e67371fe2d526b17f7273101be6bbabe3611c270dcdb4b",
+    "answer_extractive.py": "9ed78a1c5a894ce73dd7fa0509de1d4a17fbf450e9c9216a13df4106e1e8e726",
+    "evaluate_bm25.py": "6e0f6847cbe5e6c2e03eddec90cbd2fd8ea55c4dd407f36e65553600ae274a60",
+    "preview_nist_chunking.py": "cb9c4e5ecd051eae960ce5b50a157637fab0daa8536d43c5e4bb80608efa75c0",
+    "data/processed/chunks-A.jsonl": "de8c45cb2a6f76209381910e083f9558cb35864f7968305d05cc1ec0e589e2d5",
+    "data/processed/chunks-C.jsonl": "a55e1829a2b2a4e3f0576751e9163c6927253626b09881b137d21e313863fbf7"
+  }
+}

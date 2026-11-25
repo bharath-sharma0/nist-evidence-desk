@@ -1,0 +1,147 @@
+Held-out gold-label review
+
+Assistant review only. No app answers were generated and no labels were frozen.
+The two proposed wording edits preserve the expected answers.
+Some items share the same table rows, so the 20 items are not 20 independent source checks.
+
+nist-013 | factual_lookup
+What characteristics does the AI RMF list for trustworthy AI?
+Expected: Valid and reliable; safe; secure and resilient; accountable and transparent; explainable and interpretable; privacy enhanced; fair with harmful biases managed.
+AI 100-1, PDF page 8: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy enhanced, and fair with their harmful biases managed.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=8
+Review: The cited evidence supports the draft answer.
+
+nist-015 | factual_lookup
+Does the AI RMF prescribe a risk tolerance?
+Expected: No. It can be used to prioritize risk, but it does not prescribe risk tolerance.
+AI 100-1, PDF page 12: While the AI RMF can be used to prioritize risk, it does not prescribe risk tolerance.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=12
+Review: The cited evidence supports the draft answer.
+
+nist-016 | paraphrased
+If an organization judges one AI risk to be highest for a particular use, how should it prioritize that risk?
+Expected: Give it the most urgent prioritization and the most thorough risk management process.
+AI 100-1, PDF page 13: call for the most urgent prioritization and most thorough risk management process.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=13
+Review: The cited evidence supports the draft answer.
+
+nist-018 | paraphrased
+How should teams justify a decision between competing trustworthiness measures when the metrics alone cannot settle it?
+Expected: Use the values and decision-making context, and resolve the trade-off transparently and with appropriate justification.
+AI 100-1, PDF page 18: Those depend on the values at play in the relevant context and should be resolved in a manner that is both transparent and appropriately justifiable.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=18
+Review: The cited evidence supports the draft answer.
+
+nist-023 | factual_lookup
+What three major categories of AI bias does NIST identify?
+Expected: Systemic, computational and statistical, and human-cognitive bias.
+AI 100-1, PDF page 23: systemic, computational and statistical, and human-cognitive.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=23
+Review: The cited evidence supports the draft answer.
+
+nist-025 | factual_lookup
+Which GAI risk labels are assigned to GV-1.5-001?
+Expected: Information Integrity
+AI 600-1, PDF page 20: Information Integrity
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20
+Review: The cited evidence supports the draft answer.
+
+nist-026 | factual_lookup
+Which GAI risk labels are assigned to GV-1.7-001?
+Expected: Information Security; Value Chain and Component Integration
+AI 600-1, PDF page 21: Information Security; Value Chain and Component Integration
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=21
+Review: The cited evidence supports the draft answer.
+
+nist-031 | factual_lookup
+Which GAI risk labels are assigned to MS-2.9-001?
+Expected: Confabulation
+AI 600-1, PDF page 39: Confabulation
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=39
+Review: The cited evidence supports the draft answer.
+
+nist-034 | factual_lookup
+Which GAI risk labels are assigned to MG-4.2-001?
+Expected: Harmful Bias and Homogenization
+AI 600-1, PDF page 49: Harmful Bias and Homogenization
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=49
+Review: The cited evidence supports the draft answer.
+
+nist-035 | paraphrased
+After an incident, what does the Profile recommend doing to learn from the response and improve future disclosures?
+Expected: Conduct after-action reviews to identify gaps and update response and disclosure procedures as required.
+AI 600-1, PDF page 20: Establish organizational policies and procedures for after action reviews of GAI system incident response and incident disclosures, to identify gaps; Update incident response and incident disclosure processes as required.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20
+Review: The cited evidence supports the draft answer.
+
+nist-036 | paraphrased
+What capability should decommissioning protocols make available if a GenAI deployment needs to be stopped?
+Expected: They should allow the system to be deactivated when necessary.
+AI 600-1, PDF page 21: Protocols are put in place to ensure GAI systems are able to be deactivated when necessary.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=21
+Review: The cited evidence supports the draft answer.
+
+nist-042 | paraphrased
+What tool could help a team check where generated data came from and whether it is authentic?
+Expected: Real-time auditing tools, where demonstrated to help track and validate lineage and authenticity.
+AI 600-1, PDF page 45: Use real-time auditing tools where they can be demonstrated to aid in the tracking and validation of the lineage and authenticity of AI-generated data.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=45
+Review: The cited evidence supports the draft answer.
+
+nist-044 | paraphrased
+What should a public report say about a GenAI system that an organization keeps monitoring?
+Expected: Report system performance, feedback received, and improvements made.
+AI 600-1, PDF page 49: Conduct regular monitoring of GAI systems and publish reports detailing the performance, feedback received, and improvements made.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=49
+Review: The cited evidence supports the draft answer.
+
+nist-045 | multi_passage
+Which action defines who reviews provenance and incident monitoring, and what does the companion action say to do after an incident?
+Expected: GV-1.5-001 defines responsibilities for periodic review. GV-1.5-002 calls for after-action reviews to identify gaps and updates to procedures as required.
+AI 600-1, PDF page 20: Define organizational responsibilities for periodic review of content provenance and incident monitoring for GAI systems.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20
+AI 600-1, PDF page 20: Establish organizational policies and procedures for after action reviews of GAI system incident response and incident disclosures, to identify gaps; Update incident response and incident disclosure processes as required.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20
+Review: The cited evidence supports the draft answer.
+
+nist-046 | multi_passage
+What capability must deactivation protocols support, and name two data-related factors to consider when decommissioning.
+Expected: Enable deactivation when necessary. Two factors are data retention requirements and data security, including leakage after decommissioning.
+AI 600-1, PDF page 21: Protocols are put in place to ensure GAI systems are able to be deactivated when necessary.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=21
+AI 600-1, PDF page 21: Consider the following factors when decommissioning GAI systems: Data retention requirements; Data security, e.g., containment, protocols, Data leakage after decommissioning; Dependencies between upstream, downstream, or other data, internet of things (IOT) or AI systems; Use of open-source data or models; Users’ emotional entanglement with GAI functions.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=21
+Review: Proposed wording: What capability should deactivation protocols support, and what are two data-related factors the profile lists for decommissioning?
+
+nist-051 | multi_passage
+How do these adjacent actions propose using stakeholder feedback and real-time audit tools for AI-generated content?
+Expected: Use feedback to assess impacts; use demonstrated real-time audit tools to track and validate lineage and authenticity.
+AI 600-1, PDF page 45: Use feedback from internal and external AI Actors, users, individuals, and communities, to assess impact of AI-generated content.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=45
+AI 600-1, PDF page 45: Use real-time auditing tools where they can be demonstrated to aid in the tracking and validation of the lineage and authenticity of AI-generated data.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=45
+Review: Proposed wording: How do MG-2.2-006 and MG-2.2-007 propose using stakeholder feedback and real-time audit tools for AI-generated content?
+
+nist-052 | multi_passage
+What should issue monitors be able to do internally, and what should regular public reports cover?
+Expected: Evaluate GenAI performance, including applying provenance techniques, and promptly escalate issues. Public reports should cover performance, feedback, and improvements.
+AI 600-1, PDF page 49: Verify that AI Actors responsible for monitoring reported issues can effectively evaluate GAI system performance including the application of content provenance data tracking techniques, and promptly escalate issues for response.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=49
+AI 600-1, PDF page 49: Conduct regular monitoring of GAI systems and publish reports detailing the performance, feedback received, and improvements made.
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=49
+Review: The cited evidence supports the draft answer.
+
+nist-054 | unanswerable
+What is the mandated maximum number of days between all GenAI provenance reviews under GV-1.5-001?
+Expected: Abstain.
+Review: The cited action calls for periodic review without specifying a maximum number of days. The requirement in the question is a false premise.
+
+nist-055 | unanswerable
+What directory path does the Profile require every company to use for storing its GenAI incident logs?
+Expected: Abstain.
+Review: This asks for a universal filesystem path. Review against the Profile’s incident disclosure guidance, which addresses processes rather than a storage directory.
+
+nist-057 | unanswerable
+What was the measured false-positive rate for the GenAI system deployed by the reader’s organization last quarter?
+Expected: Abstain.
+Review: This asks for a deployment measurement from the reader’s organization. That measurement is outside the two-report corpus.
