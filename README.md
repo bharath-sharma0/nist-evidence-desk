@@ -1,6 +1,6 @@
 # NIST Evidence Desk
 
-**[Try the live demo](https://bharath-sharma0.github.io/nist-evidence-ddesk/)** · Search selected NIST passages and open their PDF citations.
+**[Try the live demo](https://bharath-sharma0.github.io/nist-evidence-desk/)** · Search selected NIST passages and open their PDF citations.
 
 NIST Evidence Desk is a local question-answering app over two NIST AI risk
 management reports. It retrieves passages, returns a source excerpt or a short
