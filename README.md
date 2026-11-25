@@ -1,5 +1,7 @@
 # NIST Evidence Desk
 
+**[Try the live demo](https://nist-evidence-desk.velvetdove1.chatgpt.site)** · Search selected NIST passages and open their PDF citations.
+
 NIST Evidence Desk is a local question-answering app over two NIST AI risk
 management reports. It retrieves passages, returns a source excerpt or a short
 answer from Qwen 1.7B, and displays the quoted evidence with a link to its PDF page.
